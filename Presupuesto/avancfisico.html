@@ -155,7 +155,6 @@
                       <span>Bienvenidos</span>
                     </a>
                   </li>
-
                   <li class="nav-parent">
                     <a>
                       <i class="fa fa-tasks" aria-hidden="true"></i>
@@ -257,106 +256,105 @@
 										<a href="#" class="fa fa-times"></a>
 									</div>
 
-									<h2 class="panel-title">Ampliaciones de Presupuesto</h2>
+									<h2 class="panel-title">Avance Fisico Mensual</h2>
 								</header>
 								<div class="panel-body">
 									<form class="form-horizontal form-bordered" method="get">
+                    <div class="meses">
+                      <label for="">MES</label>
+                      <div>
+                        <select name="mes">
+                        <option selected value="0">Seleccione el Mes</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+  
+                      </select>
+
+                      </div>
+                      <div class="year">
+                        <h5>Año</h5>
+                        <div class="anio">
+                          <input type="date" class="form-Control" id="fecha">
+                        </div>
+                      
+                    </div>
                     
           
                     <div class="form-group">  
 
-                      <div class="col-md-6 col-lg-12 col-xl-6">                    
-                        <label class="col-md-2 col-form-label" for="cd">Costo Directo</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="cd" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="gg">Gastos Generales</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="gg" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="gs">Gastos de Supervicion</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="gs" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                       <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="eet">Elaboracion de Expediente Tecnico</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="eet" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="ge">Gastos Evaluación</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="ge" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="gl">Gastos de Liquidacion</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="gl" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                       <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="og">Otros Gastos</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="og" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>                     
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="redondeo">Redondeo</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="redondeo" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                    
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="po">Presupuesto de Obra</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="po" placeholder="De Add-Mod (Proyecto)">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="fechaRes">Fecha Resolución</label>
-												<div class="col-md-6">
-													<input type="date" class="form-control" id="fechaRes" >
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="fechaapp">Fecha de Aplicacion</label>
-												<div class="col-md-6">
-													<input type="date" class="form-control" id="fechaapp" >
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="resolucion">Resolución</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="resolucion" placeholder="ver archivo">
-												</div>
-                      </div>
-
-                      <div class="col-md-6 col-lg-12 col-xl-6">    
-                        <label class="col-md-2 col-form-label" for="accion">Acciones</label>
-												<div class="col-md-6">
-													<input type="text" class="form-control" id="accion" placeholder="Memorandun N 2020...">
-												</div>
-                      </div>                      
+                      <table class="table table-responsive table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Programado</th>
+                                <th>%</th>
+                                <th>Acumulado</th>
+                                <th>%</th>
+                                <th>Valorizacion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Costo Directo</td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><input type="number" placeholder="ingrese monto"></td>
+                            </tr>
+                            <tr>
+                              <td>Mayores Metrados</td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><input type="number" placeholder="ingrese monto"></td>
+                            </tr>
+                            <tr>
+                              <td>Meyores Metrados 2</td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><input type="number" placeholder="ingrese monto"></td>
+                            </tr>
+                            <tr>
+                              <td>Partidas Nuevas 1</td>
+                              <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><label>0.00</label></td>
+                                <td><input type="number" placeholder="ingrese monto"></td>
+                            </tr>
+                            <tr>
+                              <td>Redondeo</td>
+                              <td><label>-</label></td>
+                              <td><label>-</label></td>
+                              <td><label>-</label></td>
+                              <td><label>-</label></td>
+                              <td><input type="number" placeholder="ingrese monto"></td>
+                            </tr>
+                            <tr>
+                              <td>Total Avance Fisico</td>
+                              <td><label>0.00</label></td>
+                              <td><label>0.00</label></td>
+                              <td><label>0.00</label></td>
+                              <td><label>0.00</label></td>
+                              
+                            </tr>
+                            
+                        </tbody>
+                    </table>                    
 
                       <div class="col-md-6">
                         <button type="button" class="mb-xs mt-xs mr-xs btn btn-primary "><i class="fa fa-save"></i> Guardar</button>
